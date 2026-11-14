@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Joseph F.Rijkaard|Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Joseph F.Rijkaard</h1>
+        <p>Étudiant en deuxième année de sciences informatiques. J'apprends en construisant des projets, que je teste et que je publie sur GitHub.</p>
+        <nav aria-label="Navigation principale">
+            <a href="#projets">Projets</a>
+            <a href="#apropos">À propos</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="projets">
+            <h2>Projets</h2>
+            <article>
+                <h3>Générateur de mots de passe</h3>
+                <p>
+                    C'est un outil en ligne de commande qui génère des mots de passe aléatoires, 
+                    avec des options pour choisir la longueur ou exclure les symbolees. J'ai utilisé
+                    le module <code>secrets</code> plutôt que <code>random</code>, car il est 
+                    conçu pour la sécurité, et j'ai écrit des tests automatiques avec pytest. 
+                </p>
+                <p>Technologie: Python, argarse, pytest</p>
+                <a href="https://github.com/Zorojuro6/generateur-mdp">Voir le code sur GitHub</a>
+            </article>
+
+            <article>
+                <h3>Analyseur de notes</h3>
+                <p>
+                    Ce programme lit un fichier CSV, calcul les moyennes par élève ou par matière,
+                    signale les lignes invalides au lieu de les igorer en silence.
+                </p>
+                <p>Appris: fichiers, dictionnaires, tests sur données fabriquées.</p>
+                <a href="https://github.com/Zorojuro6/analyseur-notes">Voir le code sur GitHub</a>
+            </article>
+
+            <article>
+                <h3>Devine le nombre</h3>
+                <p>
+                    C'est un jeu qui utilise une recherche binaire pour trouvers n'importe quel
+                    nombre entre 1 et 100 en 7 essais maximum, prouvé par un test. 
+                </p>
+                <p>Appris: algorithmique et mesure du pire cas.</p>
+                <a href="https://github.com/Zorojuro6/devine-nombre">Voir le code sur GitHub</a>
+            </article>
+
+            <article>
+                <h3>Organisateur de fichiers</h3>
+                <p>
+                    Ce programme range un dossier par type de fichier, simule d'abord et ne remplace
+                    jamais un fichier existant.
+                </p>
+                <p>Appris: <code>pathlib</code> et actions irréversibles.</p>
+                <a href="https://github.com/Zorojuro6/organisateur">Voir le code sur GitHub</a>
+            </article>
+
+            <article>
+                <h3>Gestionnaire de dépenses</h3>
+                <p>
+                    Ce programme ajoute, liste, résume et supprime des dépenses, avec sauvegarde JSON 
+                    qui refuse d'écraser un fichier abîmé.
+                </p>
+                <p>Appris: persistance et gestion des erreurs.</p>
+                <a href="https://github.com/Zorojuro6/depenses">Voir le code sur GitHub</a>
+            </article>
+
+            <article>
+                <h3>Structure de données</h3>
+                <p>
+                    C'est un programme qui contient une pile, une file et une liste chaînée écrites à la 
+                    main, plus une mesure qui montre pourquoi une liste est mauvaise pour une file. 
+                </p>
+                <p>Appris: classes et complexité.</p>
+                <a href="https://github.com/Zorojuro6/structures">Voir le code sur GitHub</a>
+            </article>
+        </section>
+
+        <section id="apropos">
+            <h2>À propos</h2>
+            <p>
+                J'ai commencé à programmer sérieusement il y a quelques mois. J'ai appris Git, Python et les 
+                tests automatiques en construisant une série de petits projets chacun plus exigeant que le 
+                précédent. Ce qui m'intéresse : écrire du code que je peux prouver correctement et comprendre
+                pourquoi un outil convient mieux qu'un autre. 
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p><a href="https://github.com/Zorojuro6">Mon profil Github</a></p>
+            <p><a href="rijkaardjoseph0@gmail.com">Mon email</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>@2026 Mon Portfolio</p>
+    </footer>
+</body>
+</html>
