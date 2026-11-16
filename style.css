@@ -30,3 +30,20 @@ a:focus-visible{
     outline: 3px solid var(--fond);
     outline-offset: 2px;
 }
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+nav a{
+    padding: 0.5rem 0.75rem;
+    text-decoration: none;
+    border-radius: 0.25rem;
+}
+
+nav a:hover{
+    background: #e8f0fa;
+}
