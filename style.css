@@ -1,0 +1,32 @@
+:root{
+    --fond: #ffffff;
+    --texte: #1a1a1a;
+    --accent: #0b5cad;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    line-height: 1.6;
+    color: var(--texte);
+    background: var(--fond);
+}
+
+header,main,footer{
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+a{
+    color: var(--accent);
+}
+
+a:focus-visible{
+    outline: 3px solid var(--fond);
+    outline-offset: 2px;
+}
