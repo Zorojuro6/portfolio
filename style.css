@@ -64,3 +64,15 @@ article{
     font-size: 0.9rem;
     color: #4a5560;
 }
+
+.lien-evitement{
+    position: absolute;
+    left: -999px;
+}
+
+.lien-evitement{
+    left: 1rem;
+    top: 1rem;
+    padding: 0.5rem 1rem;
+    background: var(--fond);
+}
