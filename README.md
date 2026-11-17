@@ -17,7 +17,7 @@ Mon portfolio personnel : une page web statique qui présente mes projets de pro
 Ce que j'ai vérifié : navigation au clavier avec TAB, contraste, zoom 200 %.
 
 ## Voir le site
-
+https://zorojuro6.github.io/portfolio/
 
 ## Structure
 - `index.html` : le contenu
