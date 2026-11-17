@@ -26,7 +26,7 @@ https://zorojuro6.github.io/portfolio/
 ## Limites connues
 - Une seule page, pas de navigation entre plusieurs pages.
 - Pas de mode sombre.
-- Testé sur [les navigateurs et appareils que tu as vraiment utilisés].
+- Testé sur ordinateur et smartphone sur le navigateur Chrome.
 
 ## Améliorations futures
 - Ajouter un mode sombre.
