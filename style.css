@@ -27,7 +27,7 @@ a{
 }
 
 a:focus-visible{
-    outline: 3px solid var(--fond);
+    outline: 3px solid var(--texte);
     outline-offset: 2px;
 }
 
@@ -46,4 +46,21 @@ nav a{
 
 nav a:hover{
     background: #e8f0fa;
+}
+
+.grille{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 1rem;
+}
+
+article{
+    border: 1px solid #c9d3df;
+    border-radius: 0.5rem;
+    padding: 1 rem;
+}
+
+.techno{
+    font-size: 0.9rem;
+    color: #4a5560;
 }
