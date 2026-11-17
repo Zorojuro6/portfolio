@@ -57,7 +57,13 @@ nav a:hover{
 article{
     border: 1px solid #c9d3df;
     border-radius: 0.5rem;
-    padding: 1 rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+article a{
+    margin-top: auto;
 }
 
 .techno{
